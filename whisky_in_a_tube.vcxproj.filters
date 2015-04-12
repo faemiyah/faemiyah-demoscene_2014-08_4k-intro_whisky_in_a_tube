@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\bsd_rand.c" />
+    <ClCompile Include="src\image_png.cpp" />
+    <ClCompile Include="src\intro.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\glsl_shader_source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\bsd_rand.h" />
+    <ClInclude Include="src\dnload.h" />
+    <ClInclude Include="src\image_png.hpp" />
+    <ClInclude Include="src\intro.hpp" />
+    <ClInclude Include="src\notetable.h" />
+    <ClInclude Include="src\glsl_shader_source.hpp" />
+  </ItemGroup>
+</Project>
