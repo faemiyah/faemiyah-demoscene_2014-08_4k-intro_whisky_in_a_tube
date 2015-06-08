@@ -13,7 +13,7 @@ endif()
 include("defaults.cmake")
 
 find_boost_program_options(TRUE)
-find_glew(TRUE STATIC)
+find_glew(TRUE)
 find_opengl(TRUE)
 find_png(TRUE)
 find_sdl(TRUE)
